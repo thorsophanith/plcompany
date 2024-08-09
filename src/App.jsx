@@ -2,15 +2,23 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Analytice from './components/Analytice'
-import ContactForm from './components/ContactForm'
+import Numhr from './components/Numhr'
+import Footer from './components/Footer'
+import Contact from './components/Contact'
+import Gallery from './components/Gallery'
+
 
 function App() {
   return (
-    <div>
+    <div className='bg-gray-100'>
       <Navbar />
       <Hero />
-      <Analytice />
-      <ContactForm />
+      <Analytice/>
+      <Numhr />
+      <Gallery />
+      <Contact />
+      <Footer />
+
     </div>
   )
 }
